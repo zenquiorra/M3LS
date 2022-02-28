@@ -58,9 +58,6 @@ article = Parse(file)
 
 
 
-> `M3LS` data use should be strictly in accordance with the terms and conditions mentioned by `BBC News`, details of which also discussed here : https://www.bbc.com/lnp/terms-and-conditions
-
-
-
+> `M3LS` data use should be strictly in accordance with the terms and conditions mentioned by `BBC News`, hence for using this data, you agree to the terms and conditions discussed here : https://www.bbc.com/lnp/terms-and-conditions
 
 
