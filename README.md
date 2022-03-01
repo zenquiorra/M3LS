@@ -4,17 +4,20 @@ To load a file from our generated dataset, we need `Python 2.7+` installed in ou
 
 The file structure is as follows:
 
-language_directory 
-  - imagefolder - jpg files
-  - processed - json files
+language_directory `language`
+  - `LanguageCode_imagefolder.zip` - zipped jpg files
+  - `LanguageCode_articles.zip` - zipped json files
  
- `language_directory` is the folder containing processed articles and their corresponding images as subdirectories for any particular language within our dataset.
+ `language` is the folder containing processed articles and their corresponding images as subdirectories for any particular language within our dataset.
  
- `imagefolder` consists of all corresponding images in a hashed format for any article having images.
+ `LanguageCode_imagefolder.zip` is the zipped folder which consists of all corresponding images in a hashed format for any article having images.
  
- `processed` consists of `.json` format files which contains the article text including summaries for the article and other meta information. 
+ `LanguageCode_articles.zip` is the zipped folder which consists of `.json` format files which contains the article text including summaries for the article and other meta information. 
  
  
+ 
+ > NOTE: We provide the data in a compressed `.zip` format to enable ease of storage and transfer. ALL data of interest must be unzipped for the supplementary parser to function. 
+ > In OS like "Linux", commands like `unzip filename.zip` can we used to decompressed the files. And "Windows" provides GUI support to decompress `.zip` format files.
  
  
 #### Import necessary packages
